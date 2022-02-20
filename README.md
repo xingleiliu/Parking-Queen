@@ -2,6 +2,12 @@
 # Parking Queen | Athenahacks 2022 Project 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
 
+### YouTube Presentation
+https://youtu.be/bYFrCC3nOQY
+
+### Try On Your Own
+https://share.streamlit.io/xingleiliu/parking-queen/main/api.py
+
 ### Table of Contents
 
 * [Inspiration](#inspiration)
