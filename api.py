@@ -15,7 +15,7 @@ st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_s
 st.header("Parking Queen")
 st.subheader("Find Meter Parking in Los Angeles")
 
-location = st.text_input("Enter Your Destination: ")
+location = st.text_input("Enter Your Destination: (e.g. Santa Monica Beach or )")
 
 time = st.select_slider(
      'Select Time You Want to Park: ',
@@ -35,7 +35,7 @@ def empty_map():
 
 
 if st.button('Find Parking Space'):
-    data, lat, long = get_data(location, radius)
+    data, lat, long = get_data(location, radius, time, space_type)
     if len(data) == 0:
         st.write("Woops... No spots found. Maybe try another radius?")
     else:
@@ -44,7 +44,7 @@ if st.button('Find Parking Space'):
         zoom_start = 12
     else:
         zoom_start = 15
-    folium_map = add_legends_popup(data, folium.Map(zoom_start=zoom_start, location=[lat, long]))
+    folium_map = add_legends_popup(data, folium.Map(zoom_start=zoom_start, location=[lat, long]), lat, long)
 else:
      folium_map = empty_map()
 
