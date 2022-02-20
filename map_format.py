@@ -10,7 +10,7 @@ def add_legends_popup(dataframe, m, lan, long):
 
     # pin user input location on the map
     folium.Marker(
-
+        location=[lan, long],
         icon=folium.Icon(color= 'cadetblue', popup='My Destination', prefix='fa', icon='circle')
     ).add_to(m)
     
