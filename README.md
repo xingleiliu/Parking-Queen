@@ -4,7 +4,7 @@
 
 Table of Contents
 
-* [Inspiration](##Inspiration)
+* [Inspiration](#inspiration)
 * What it does
 * Perview of Our Website!
 * How we built it
