@@ -2,7 +2,8 @@
 ![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/logo_icon.png)
 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
-##Inspiration
+
+## Inspiration
 
 As we all know, the United States is a country on the wheels, especially Los Angeles. Everyone has suffered from finding a parking spot more or less due to the scarcity of space and information opacity. Not hard to imagine parking around famous tourist attractions like Santa Monica Beach, or a popular restaurant, it can waste a lot of time and make people irritable. The long term consequences of such small things like parking will lead to a bad impression on LA which is also a tourist city, and also decline life expectancy for local residents. We wanted to create a web application that helps tourists and LA residents to park easier with rates and time filters at an input destination. Our mission is to make life easier, our cities more accessible, and our world more connected.
  
