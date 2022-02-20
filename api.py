@@ -44,7 +44,7 @@ if st.button('Find Parking Space'):
         zoom_start = 12
     else:
         zoom_start = 15
-    folium_map = add_legends_popup(data, folium.Map(zoom_start=zoom_start, location=[lat, long], ))
+    folium_map = add_legends_popup(data, folium.Map(zoom_start=zoom_start, location=[lat, long]))
 else:
      folium_map = empty_map()
 

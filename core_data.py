@@ -21,7 +21,7 @@ import geopy.distance
 # https://data.lacity.org/resource/s49e-q6j2.json
 
 
-def get_data(address, radius):
+def get_data(address, radius, time, space_type):
     client = Socrata("data.lacity.org", None)
 
     # First 2000 results, returned as JSON from API / converted to Python list of
@@ -94,4 +94,5 @@ def get_data(address, radius):
     # print(geopy.distance.vincenty(coords_1, coords_2).mi)
 
     aa=big_table.loc[big_table.within]
+    aa=aa.loc[aa['MeterType'] == space_type]
     return aa, input_lat, input_long
