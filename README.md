@@ -2,7 +2,7 @@
 # Parking Queen | Athenahacks 2022 Project 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
 
-Table of Contents
+### Table of Contents
 
 * [Inspiration](#inspiration)
 * [What It Does](#what-it-does)
