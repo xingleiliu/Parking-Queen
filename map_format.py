@@ -6,7 +6,13 @@ import numpy as np
 
 
 
-def add_legends_popup(dataframe, m):
+def add_legends_popup(dataframe, m, lan, long):
+
+    # pin user input location on the map
+    folium.Marker(
+        location=[lan,long],
+        icon=folium.Icon(color= 'cadetblue', prefix='fa', icon='circle')
+    ).add_to(m)
     
     lgd_txt = '<span style="color: {col};">{txt}</span>'
     price_list = ['less or equal to $1', 'between $1 and $2', 'between $2 and $3', 'greater than $3']
@@ -34,7 +40,7 @@ def add_legends_popup(dataframe, m):
 
 
         folium.Marker([dataframe['Lan'].iloc[i],dataframe['Long'].iloc[i]],popup=popup,
-                     icon=folium.Icon(color=color, prefix='fa')).add_to(m) 
+                     icon=folium.Icon(color=color, prefix='fa', icon = 'car')).add_to(m)
 
     folium.map.LayerControl('bottomleft', collapsed= False).add_to(m)
 
