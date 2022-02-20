@@ -1,4 +1,4 @@
-![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/log_regtangular.png)
+![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/image/log_regtangular.png)
 # Parking Queen | Athenahacks 2022 Project 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
 
