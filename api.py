@@ -26,7 +26,7 @@ radius = st.slider('Select Radius (miles): ', 0.0, 5.0, 1.0)
 
 space_type = st.radio(
      "Select Space Type",
-     ('Single-space', 'Multi-space'))
+     ('Single-Space', 'Multi-Space'))
 
 
 def empty_map():
