@@ -15,7 +15,7 @@ st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_s
 st.header("Parking Queen")
 st.subheader("Find Meter Parking in Los Angeles")
 
-location = st.text_input("Enter Your Destination: (e.g. Santa Monica Beach or 105 W 9th St")
+location = st.text_input("Enter Your Destination: (e.g. Santa Monica Beach or 105 W 9th St)")
 
 time = st.select_slider(
      'Select Time You Want to Park: ',
