@@ -1,6 +1,5 @@
-# Parking Queen | Athenahacks 2022 Project 
 ![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/log_regtangular.png)
-
+# Parking Queen | Athenahacks 2022 Project 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
 
 ## Inspiration
