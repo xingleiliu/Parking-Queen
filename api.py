@@ -28,7 +28,7 @@ with col3:
 st.header("Parking Queen")
 st.subheader("Find Meter Parking in Los Angeles")
 
-location = st.text_input("Enter Your Destination: (e.g. Santa Monica Beach or 105 W 9th St")
+location = st.text_input("Enter Your Destination: (e.g. Santa Monica Beach or 105 W 9th St)")
 
 time = st.select_slider(
      'Select Time You Want to Park: ',
