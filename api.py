@@ -15,7 +15,7 @@ from PIL import Image
 st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 col2, col3 = st.columns([6,1])
-image = Image.open('log_regtangular.png')
+image = Image.open('image/log_regtangular.png')
 
 with col2:
     st.image(image, width=700)
