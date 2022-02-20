@@ -8,6 +8,9 @@ As we all know, the United States is a country on the wheels, especially Los Ang
 ## What it does
 Parking Queen is a website that can find real-time vacant meter parking spots in LA. This app will allow users to input a destination address, and it can be a broad location, such as Santa Monica Beach, or a specific address like 105 W 9th St. The users are able to select how long they want to park, from 1hr to 4+hours, and the radius within their input address, from 0 to 5 mi, before finding the spots. Space type like single-space or multi-space is also an option for the users to choose. Finally, after clicking the “Find Parking Spaces” button, the website will tell the users how many spots it has found or tell them to try with a larger radius. On the map, different rates are marked with different color pins. There are a total of 4 different colors with legend on the bottom left on the map, which are below $1/hr, $1-$2/hr, $2-$3/hr and above $3/hr. Therefore, all the available spots can be easily seen on the map.
 
+## Perview of Our Website!
+![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/image/web_preview.png)
+
 ## How we built it
 Using the real-time data, the search time frame is set to 10 minutes before the current time. We merged this part with one fixed dataset that contains details about meter locations. The fixed dataset is stored in Firebase. Users can input their destination into the search bar, and the Google Map API will convert it to (latitude, longitude) coordinates. Then, we chose Vincenty’s Distance to calculate the distance between the input destination point and the vacant parking spots. The vacant spaces that meet the filter requirements will have a “True” boolean value, and the results will be spots only marked as “True”. Filters include radius around destination, parking time range, and meter types. Map has pins that show the different parking prices based on different colors at the found spots.
  
@@ -27,9 +30,6 @@ We had a new experience of working with real-time data and non-real-time data at
 ## What's next for Parking Queen
  
 In the future, we will combine a “Locate Me” function using some geolocation API, and sort the output parking spots based on nearest to farthest distance. We will have a side-bar to show these sorted results, and add a navigation function for route planning from “Locate Me” to one of the results spots chosen by the user on the UI interface. 
-
-## Perview of Our Website!
-![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/image/web_preview.png)
 
 ## Reference:
 
