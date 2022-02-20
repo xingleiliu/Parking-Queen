@@ -9,8 +9,21 @@ import urllib.parse
 import pandas as pd
 from map_format import add_legends_popup
 from core_data import get_data
+from PIL import Image
+
 
 st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+
+col2, col3 = st.columns([6,1])
+image = Image.open('log_regtangular.png')
+
+with col2:
+    st.image(image, width=700)
+
+with col3:
+    st.write("")
+
+# st.image(image, width=500)
 
 st.header("Parking Queen")
 st.subheader("Find Meter Parking in Los Angeles")
