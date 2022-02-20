@@ -2,6 +2,17 @@
 # Parking Queen | Athenahacks 2022 Project 
 **Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
 
+* [Inspiration](##Inspiration)
+* What it does
+* Perview of Our Website!
+* How we built it
+* Challenges we faced
+* Accomplishments that we're proud of
+* New skills we learned
+* What's next for Parking Queen
+* Reference
+* Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to header `Block Elements`. 
+
 ## Inspiration
 As we all know, the United States is a country on the wheels, especially Los Angeles. Everyone has suffered from finding a parking spot more or less due to the scarcity of space and information opacity. Not hard to imagine parking around famous tourist attractions like Santa Monica Beach, or a popular restaurant, it can waste a lot of time and make people irritable. The long term consequences of such small things like parking will lead to a bad impression on LA which is also a tourist city, and also decline life expectancy for local residents. We wanted to create a web application that helps tourists and LA residents to park easier with rates and time filters at an input destination. Our mission is to make life easier, our cities more accessible, and our world more connected.
  
@@ -31,7 +42,7 @@ We had a new experience of working with real-time data and non-real-time data at
  
 In the future, we will combine a “Locate Me” function using some geolocation API, and sort the output parking spots based on nearest to farthest distance. We will have a side-bar to show these sorted results, and add a navigation function for route planning from “Locate Me” to one of the results spots chosen by the user on the UI interface. 
 
-## Reference:
+## Reference
 
 Dataset: https://www.laexpresspark.org/la-city-open-data/ <br>
 https://towardsdatascience.com/folium-map-how-to-create-a-table-style-pop-up-with-html-code-76903706b88a
