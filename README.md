@@ -1,6 +1,6 @@
 ![foxdemo](https://github.com/xingleiliu/Parking-Queen/blob/main/image/log_regtangular.png)
 # Parking Queen | Athenahacks 2022 Project 
-**Contributors: Xinglei Liu, Qinyang Fang, Yiqi Xiong**
+**Contributors: Xinglei Liu (xingleil@usc.edu), Qinyang Fang (qinyangf@usc.edu), Yiqi Xiong (yiqixion@usc.edu)**
 
 ### YouTube Presentation
 https://youtu.be/bYFrCC3nOQY
