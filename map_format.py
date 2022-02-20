@@ -10,8 +10,8 @@ def add_legends_popup(dataframe, m, lan, long):
 
     # pin user input location on the map
     folium.Marker(
-        location=[lan,long],
-        icon=folium.Icon(color= 'cadetblue', prefix='fa', icon='circle')
+
+        icon=folium.Icon(color= 'cadetblue', popup='My Destination', prefix='fa', icon='circle')
     ).add_to(m)
     
     lgd_txt = '<span style="color: {col};">{txt}</span>'
@@ -21,8 +21,9 @@ def add_legends_popup(dataframe, m, lan, long):
     for idx in range(len(price_list)): 
 
         fg = folium.FeatureGroup(name= lgd_txt.format( txt= 'Lowest Rate: '+ price_list[idx] , col= color[idx]))
+
         m.add_child(fg)
-        
+
     for i in range(0,len(dataframe)):
         LowestRate = dataframe['LowestRate'].iloc[i]
         if LowestRate <= np.float(1.0):
