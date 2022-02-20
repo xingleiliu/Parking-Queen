@@ -5,15 +5,15 @@
 Table of Contents
 
 * [Inspiration](#inspiration)
-* What it does
-* Perview of Our Website!
-* How we built it
-* Challenges we faced
-* Accomplishments that we're proud of
-* New skills we learned
-* What's next for Parking Queen
-* Reference
-* Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to header `Block Elements`. 
+* [What it does](#what-it-does)
+* [Perview of Our Website!](#perview-of-our-website)
+* [How we built it](#how-we-built-it)
+* [Challenges we faced](#challenges-we-faced)
+* [Accomplishments that we're proud of](#accomplishments-that-were-proud-of)
+* [New skills we learned](#new-skills-we-learned)
+* [What's next for Parking Queen](#whats-next-for-parking-queen)
+* [Reference](#reference)
+
 
 ## Inspiration
 As we all know, the United States is a country on the wheels, especially Los Angeles. Everyone has suffered from finding a parking spot more or less due to the scarcity of space and information opacity. Not hard to imagine parking around famous tourist attractions like Santa Monica Beach, or a popular restaurant, it can waste a lot of time and make people irritable. The long term consequences of such small things like parking will lead to a bad impression on LA which is also a tourist city, and also decline life expectancy for local residents. We wanted to create a web application that helps tourists and LA residents to park easier with rates and time filters at an input destination. Our mission is to make life easier, our cities more accessible, and our world more connected.
