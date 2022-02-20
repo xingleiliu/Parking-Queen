@@ -33,6 +33,6 @@ In the future, we will combine a “Locate Me” function using some geolocation
 
 ## Reference:
 
-Dataset: https://www.laexpresspark.org/la-city-open-data/
+Dataset: https://www.laexpresspark.org/la-city-open-data/ <br>
 https://towardsdatascience.com/folium-map-how-to-create-a-table-style-pop-up-with-html-code-76903706b88a
 
