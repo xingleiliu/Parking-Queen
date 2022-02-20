@@ -36,7 +36,10 @@ def empty_map():
 
 if st.button('Find Parking Space'):
     data, lat, long = get_data(location, radius)
-    # print(len(data))
+    if len(data) == 0:
+        st.write("Woops... No spots found. Maybe try another radius?")
+    else:
+        st.write("We found " + str(len(data)) + " spots for you!")
     if 3 <= radius <= 5:
         zoom_start = 12
     else:
