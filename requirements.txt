@@ -9,3 +9,4 @@ requests==2.27.1
 sodapy==2.1.0
 streamlit==1.5.1
 streamlit_folium==0.6.2
+click==8.0
